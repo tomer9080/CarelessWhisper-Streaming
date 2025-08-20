@@ -1,7 +1,7 @@
 # CarelessWhisper - Causal Whisper Streaming Model
 Causal Whisper Streaming is a fine tuned version of OpenAI Whisper, which can handle causal data and perform real-time transcription. 
 
-[![Demo on Hugging Face](https://img.shields.io/badge/🤗%20Demo-Hugging%20Face-blueviolet?logo=huggingface&logoColor=white)](https://huggingface.co/spaces/MLSpeech/CarelessWhisper-causal-streaming)
+[![arXiv](https://img.shields.io/badge/arXiv-2301.12345-b31b1b.svg)](https://arxiv.org/abs/2508.12301)  [![Demo on Hugging Face](https://img.shields.io/badge/🤗%20Demo-Hugging%20Face-blueviolet?logo=huggingface&logoColor=white)](https://huggingface.co/spaces/MLSpeech/CarelessWhisper-causal-streaming)
 
 
 ## 🔧 Setup
