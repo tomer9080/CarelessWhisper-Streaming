@@ -287,7 +287,7 @@ def load_streaming_model(
     from huggingface_hub import hf_hub_download
 
     try:
-        ckpt_path = hf_hub_download(repo_id="MLSpeech/causal-whisper", filename=_STREAMING_MODELS_HF[name][subname], repo_type="model", token=True)
+        ckpt_path = hf_hub_download(repo_id="MLSpeech/CarelessWhisper-Streaming", filename=_STREAMING_MODELS_HF[name][subname], repo_type="model", token=True)
     except KeyError as e:
         print(f"Streaming model with the next configs: size {name}, multilingual: {multilingual} and chunk size: {gran} is not available.")
         
