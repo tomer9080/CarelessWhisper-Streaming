@@ -149,6 +149,16 @@ This file defines a Python dictionary named `ds_paths`, where you should specify
 
 You can find an example entry in `training_code/ds_dict.py`.
 
+> **Note:** We used [Montreal Forced Aligner (MFA)](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html) to force-align our dataset.
+
+To run the same force-alignment process as described in the paper, use:
+
+```bash
+mfa align --clean /dataset/root/path english_us_arpa english_us_arpa /aligned_dataset/root/path
+```
+
+For more details on how to run using `mfa` command, visit [MFA site](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html).
+
 ### 🖥️ CLI Interface
 ```bash
 python training_code/train.py \
